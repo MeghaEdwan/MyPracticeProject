@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Wishesh from './Components/Wishesh';
 import File from './Components/File1';
+import Message from './Components/Message';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
      <Wishesh/>
      <File/>
+     <Message/>
     </>
   )
 }
