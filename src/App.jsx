@@ -8,6 +8,10 @@ import Message from './Components/Message';
 import Props from './Components/Props';
 import UseContextHook from './Components/hooks/UseContextHook';
 import ApiIntegration from './Components/Api Integration/API_Integration';
+import UseState from './Components/hooks/UseState';
+import UseEffect from './Components/hooks/UseEffect';
+import UseMemo from './Components/hooks/UseMemo';
+import UseCallback from './Components/hooks/UseCallback';
 
 
 function App() {
@@ -20,8 +24,11 @@ function App() {
      <Message/>
      <Props language="ReactJs"/>
      <UseContextHook/> */}
-
-     <ApiIntegration/>
+  <UseState/>
+  <UseEffect/>
+  <UseMemo/>
+  <UseCallback/>
+     {/* <ApiIntegration/> */}
     </>
   )
 }
