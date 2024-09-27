@@ -7,17 +7,21 @@ import File from './Components/File1';
 import Message from './Components/Message';
 import Props from './Components/Props';
 import UseContextHook from './Components/hooks/UseContextHook';
+import ApiIntegration from './Components/Api Integration/API_Integration';
 
 
 function App() {
 
   return (
     <>
-     <Wishesh/>
-     <File/>
+     {/* <Wishesh/>
+     <File/>  
+     
      <Message/>
      <Props language="ReactJs"/>
-     <UseContextHook/>
+     <UseContextHook/> */}
+
+     <ApiIntegration/>
     </>
   )
 }
