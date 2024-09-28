@@ -12,6 +12,7 @@ import UseState from './Components/hooks/UseState';
 import UseEffect from './Components/hooks/UseEffect';
 import UseMemo from './Components/hooks/UseMemo';
 import UseCallback from './Components/hooks/UseCallback';
+import UseReducer from './Components/hooks/UseReducer';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
   <UseEffect/>
   <UseMemo/>
   <UseCallback/>
+  <UseReducer/>
      {/* <ApiIntegration/> */}
     </>
   )
