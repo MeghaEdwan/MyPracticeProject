@@ -17,6 +17,8 @@ import TraditionalCss from './Components/styling Css/TraditionalCss';
 import ModuleCss from './Components/styling Css/ModuleCss';
 import InlineCss from './Components/styling Css/InlineCss';
 import StyledCss from './Components/styling Css/StyledCss';
+import Api_Integration_Fetch from './Components/Api Integration/Api_Integration_Fetch';
+import RoutingMain from './Components/Routing/RoutingMain';
 
 
 function App() {
@@ -29,7 +31,7 @@ function App() {
      <Message/>
      <Props language="ReactJs"/>
      <UseContextHook/> */}
-  <UseState/>
+  {/* <UseState/>
   <UseEffect/>
   <UseMemo/>
   <UseCallback/>
@@ -37,8 +39,12 @@ function App() {
   <TraditionalCss/>
   <ModuleCss/>
   <InlineCss/>
-  <StyledCss/>
+  <StyledCss/> */}
+
+  {/* <Api_Integration_Fetch/> */}
      {/* <ApiIntegration/> */}
+
+     <RoutingMain/>
     </>
   )
 }
