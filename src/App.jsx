@@ -13,6 +13,10 @@ import UseEffect from './Components/hooks/UseEffect';
 import UseMemo from './Components/hooks/UseMemo';
 import UseCallback from './Components/hooks/UseCallback';
 import UseReducer from './Components/hooks/UseReducer';
+import TraditionalCss from './Components/styling Css/TraditionalCss';
+import ModuleCss from './Components/styling Css/ModuleCss';
+import InlineCss from './Components/styling Css/InlineCss';
+import StyledCss from './Components/styling Css/StyledCss';
 
 
 function App() {
@@ -30,6 +34,10 @@ function App() {
   <UseMemo/>
   <UseCallback/>
   <UseReducer/>
+  <TraditionalCss/>
+  <ModuleCss/>
+  <InlineCss/>
+  <StyledCss/>
      {/* <ApiIntegration/> */}
     </>
   )
