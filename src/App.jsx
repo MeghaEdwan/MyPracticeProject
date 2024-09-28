@@ -19,6 +19,7 @@ import InlineCss from './Components/styling Css/InlineCss';
 import StyledCss from './Components/styling Css/StyledCss';
 import Api_Integration_Fetch from './Components/Api Integration/Api_Integration_Fetch';
 import RoutingMain from './Components/Routing/RoutingMain';
+import PropsDrilling from './Components/propsDrilling/PropsDrilling';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
      {/* <ApiIntegration/> */}
 
      <RoutingMain/>
+     <PropsDrilling/>
     </>
   )
 }
